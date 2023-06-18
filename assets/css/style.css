@@ -1,0 +1,43 @@
+:root {
+	/* general colors */
+	--White: #fff;
+	--Platinum: #e8ebe4;
+	--Gray: #bec1bb;
+	--BlueBell: #a491d2;
+	--PaleLavender: #d4dcff;
+	--DarkJungle: #1b1f21;
+	--OuterSpace: #444749;
+	--OldSilver: #828485;
+}
+
+html {
+	box-sizing: border-box;
+	font-size: 62.5%;
+	scroll-behavior: smooth;
+}
+
+*,
+*::after,
+*::before {
+	box-sizing: inherit;
+}
+
+body {
+	font-size: 1.6rem;
+	font-family: "Raleway", sans-serif;
+	line-height: 1.6;
+}
+
+img {
+	max-width: 100%;
+	display: block;
+}
+
+/* Reusables */
+.text-center {
+	text-align: center;
+}
+
+.container-1366 {
+	max-width: 136rem;
+}
