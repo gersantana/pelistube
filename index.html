@@ -15,15 +15,23 @@
 	<body class="body_container">
 		<nav class="nav_container">
 			<div class="icon">
-				<p>PeliTube</p>
+				<a href="#">Pelis<span>Tube</a>
 			</div>
+            <div>
+                <a href="#">Categorias</a>
+                <a href="">Peliculas</a>
+                <a href="#">Series</a>
+                <a href="#">Trailers</a>
+            </div>
 			<div class="hamburg_menu">
 				<i class="fa-solid fa-bars" style="color: #000000"></i>
 			</div>
 		</nav>
+
 		<section class="seach_filter">
-            <label for="options">Odenar Por:</label>
+            <label for="options">Quiero Ver:</label>
             <select name="options" id="options">
+                <option value="">--categorias--</option>
                 <option value="accion">Accion</option>
                 <option value="romace">Romace</option>
                 <option value="drama">Drama</option>
@@ -31,15 +39,29 @@
                 <option value="series">Series</option>
             </select>
         </section>
+
         <main class="main_container">
             <div class="peli_container">
-                <div class="card_container"></div>
-                <div class="card_container"></div>
-                <div class="card_container"></div>
-                <div class="card_container"></div>
-                <div class="card_container"></div>
-                <div class="card_container"></div>
+                <div class="card_container">
+                    <a href="#"><img src="./assets/imgs/barbye.jpg" alt=""></a>
+                </div>
+                <div class="card_container">
+                    <a href="#"><img src="/assets/imgs/deadpool.jpg" alt=""></a>
+                </div>
+                <div class="card_container">
+                    <a href="#"><img src="/assets/imgs/el piloto ( 2023).jpg" alt=""></a>
+                </div>
+                <div class="card_container">
+                    <a href="#"><img src="/assets/imgs/fast and furius.jpg" alt=""></a>
+                </div>
+                <div class="card_container">
+                    <a href="#"><img src="/assets/imgs/la sirenita.jpg" alt=""></a>
+                </div>
+                <div class="card_container">
+                    <a href="#"><img src="/assets/imgs/mario.avif" alt=""></a>
+                </div>
             </div>
+
             <div class="carrusel">
                 <a href="#">Previus</a>
                 <a href="#">1</a>
@@ -48,8 +70,15 @@
                 <a href="#">Next</a>
             </div>
         </main>
-        <div class="footer_container">
-            <a href="#"><img src="./assets/imgs/icons8-instagram-48.svg" alt="insta">Instagram</a>
-        </div>
+
+        <footer class="footer_container">
+            <div class="social_media">
+                <a href="#"><img src="./assets/imgs/icons8-instagram-48.svg" alt="insta">Instagram</a>
+                <a href="#"><img src="./assets/imgs/icons8-gmail-48.svg" alt="gmail">G-mail</a>
+            </div>
+            
+            <p>2023 Pelis<span>Tube</span> Todos los derechos reservados</p>
+        </footer>
+        
 	</body>
 </html>
