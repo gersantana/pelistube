@@ -41,3 +41,35 @@ img {
 .container-1366 {
 	max-width: 136rem;
 }
+
+ /* GRID LAYOUT  */
+ .body_container {
+    display: grid;
+    height: 100vh;
+    grid-template-areas:
+    "nav"
+    "seach_filter"
+    "main"
+    "footer";
+    grid-template-rows: 1fr 1fr 1fr 1fr;  
+ }
+
+ /* NAVBAR */
+ .nav_container {
+    grid-area: nav
+ }
+
+/* FILTER */
+ .seach_filter {
+    grid-area: seach_filter;
+ }
+/* MAIN */
+
+ main_container {
+    grid-area: main;
+ }
+ 
+/* FOOTER */
+ .footer_container {
+    grid-area: footer;
+ }
