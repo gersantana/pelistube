@@ -45,13 +45,14 @@ img {
  /* GRID LAYOUT  */
  .body_container {
     display: grid;
-    height: 100vh;
+    min-height: 100vh;
     grid-template-areas:
     "nav"
     "seach_filter"
     "main"
     "footer";
-    grid-template-rows: 5rem 7rem 1fr 1fr;  
+    /* grid-template-rows: 4rem 7rem 1fr 8rem;   */
+    background-color: #232323;
  }
 
  /* NAVBAR */
@@ -86,28 +87,102 @@ img {
     color: #bec1bb;
     display: flex;
     flex-direction: column;
-    gap: .2rem;
     align-items: center;
-    padding: .5rem;
+    justify-content: center;
+    gap: .2rem;
+ }
+
+ .seach_filter select {
+    width: 70%;
+    border-radius: .5rem;
  }
 /* MAIN */
 
- main_container {
+ .main_container {
     grid-area: main;
  }
 
  .movie_container {
-    height: 65vh;
+    height: 70vh;
     overflow-y: scroll;
  }
+
+ .card_container {
+    max-width: 34rem;
+    margin: 1rem auto 3rem auto;
+    border-bottom: #828282 solid .1rem;
+}
+
+.card_container a {
+    text-decoration: none;
+}
+
+.card_container a h2 {
+    margin: 0;
+    color: #fff;
+}
+
+.btn_ver {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(89, 157, 225);
+    border-radius: .5rem;
+    padding: .2rem;
+    margin: 1rem 0;
+}
+
+.btn_ver a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+}
 
  .carrusel {
     display: flex;
     justify-content: center;
-    gap: .8rem
+    align-items: center;
+    padding: .5rem;
+    gap: .8rem;
  }
+
+.carrusel a {
+    color: #fff;
+}
 
 /* FOOTER */
  .footer_container {
     grid-area: footer;
+    background-color:#444749;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ }
+
+ .social_media {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    padding: .5rem;
+ }
+
+ .social_media img {
+    margin: 0 auto;
+    width: 4rem;
+ }
+
+ .social_media a { 
+    color: #fff;
+ }
+
+ .derechos {
+    color: #fff;
+    margin: 0;
+    font-size: 1.2rem;
+ }
+
+ .derechos span {
+    color: rgb(89, 157, 225);
+    text-transform: uppercase;
+    font-weight: 900;
  }
