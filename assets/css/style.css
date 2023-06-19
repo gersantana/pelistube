@@ -1,10 +1,10 @@
 :root {
 	/* general colors */
-	--Blue:rgb(64, 134, 204);
-    --White:#fff;
-    --LightGrey:#bec1bb;
-    --Black:#0000;
-    --blackGrey:#232323;
+	--Blue: rgb(64, 134, 204);
+	--White: #fff;
+	--LightGrey: #bec1bb;
+	--Black: #0000;
+	--blackGrey: #232323;
 	--PaleLavender: #d4dcff;
 	--DarkJungle: #1b1f21;
 	--OuterSpace: #444749;
@@ -85,7 +85,7 @@ img {
 .seach_filter {
 	grid-area: seach_filter;
 	background-color: var(--OuterSpace);
-    color: var(--LightGrey);
+	color: var(--LightGrey);
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -116,13 +116,13 @@ img {
 
 .card_container a {
 	text-decoration: none;
-    color: var(--White);
-    transition: all 0.3s ease;
+	color: var(--White);
+	transition: all 0.3s ease;
 }
 
 .card_container a:hover {
-    color: var(--Blue);
-    text-decoration: underline;
+	color: var(--Blue);
+	text-decoration: underline;
 }
 
 .card_container h2 {
@@ -132,22 +132,21 @@ img {
 .btn_ver a {
 	color: var(--White);
 	text-decoration: none;
-	/* text-transform: uppercase; */
 	font-weight: 700;
-    background-color: var(--Blue);
-    border-radius: 0.5rem;
-    width: 100%;
-    padding: .2rem 0;
-    margin: 1rem auto;
-    display: block;
-    text-align: center;
-    transition: color, 0.3s ease;
+	background-color: var(--Blue);
+	border-radius: 0.5rem;
+	width: 100%;
+	padding: 0.2rem 0;
+	margin: 1rem auto;
+	display: block;
+	text-align: center;
+	transition: color, 0.3s ease;
 }
 .btn_ver a:hover {
-    background-color: rgb(9, 80, 138);
-    box-shadow: .3rem .3rem .5rem var(--OuterSpace);
-    color: var(--White);
-    font-weight: bold;
+	background-color: rgb(9, 80, 138);
+	box-shadow: 0.3rem 0.3rem 0.5rem var(--OuterSpace);
+	color: var(--White);
+	font-weight: bold;
 }
 
 .carrusel {
