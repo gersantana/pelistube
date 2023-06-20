@@ -3,7 +3,7 @@
 	--Blue: rgb(64, 134, 204);
 	--White: #fff;
 	--LightGrey: #bec1bb;
-	--Black: #0000;
+	--Black: #000000;
 	--blackGrey: #232323;
 	--PaleLavender: #d4dcff;
 	--DarkJungle: #1b1f21;
@@ -47,12 +47,12 @@ img {
 .body_container {
 	display: grid;
 	min-height: 100vh;
+    background-color: var(--blackGrey);
 	grid-template-areas:
 		"nav"
 		"seach_filter"
 		"main"
 		"footer";
-	background-color: var(--blackGrey);
 }
 @media (min-width: 576px) {
     .body_container {
@@ -252,6 +252,16 @@ img {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+}
+@media (min-width: 576px) {
+    .footer_container {
+        background-color: var(--DarkJungle);
+    }
+}
+@media (min-width: 992px) {
+    .footer_container {
+        background-color: var(--OuterSpace);
+    }
 }
 
 .social_media {
