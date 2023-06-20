@@ -6,4 +6,4 @@ tablet:  >576px
 desktop: >992px
 
 Demo:
-https://github.com/gersantana/pelistube
+https://gersantana.github.io/pelistube/
